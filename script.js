@@ -17,7 +17,7 @@ function isCaught(game, number) {
 }
 
 // loading the pokemon data json
-fetch(''https://raw.githubusercontent.com/pa5sarinho/pa5sarinho.github.io/main/PMD_data.json'')
+fetch('https://raw.githubusercontent.com/pa5sarinho/pa5sarinho.github.io/main/PMD_data.json')
   .then(response => response.json())
   .then(data => {
     let pokemon = data;
