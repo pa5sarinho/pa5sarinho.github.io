@@ -371,8 +371,8 @@
 	"42": {
 		"name": "Golbat",
 		"rt_location": "Lapis Cave(B11F-B14F), Buried Relic(B1F-B4F), Wish Cave(B46F-B50F), Murky Cave(B6F-B10F)",
-		"rt_rate": "(B11F-B14F),",
-		"friend_area": "Ranger ",
+		"rt_rate": "-19%",
+		"friend_area": "Echo Cave",
 		"sky_location": "Aegis Cave(Ice B1F-B3F, Rock B1F-B3F, Steel B1F-B3F, Pit B1F-B3F, B5F), Labyrinth Cave(B1F-B9F)",
 		"sky_rate": "-4.5%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/6\/68\/MDP_E_042.png"
@@ -668,8 +668,8 @@
 	"75": {
 		"name": "Graveler",
 		"rt_location": "Magma Cavern(B5F-B10F), Buried Relic(B74F-B76F), Wish Cave(B72F-B75F), Southern Cavern(B25F-B36F), Joyous Tower(68F-73F)",
-		"rt_rate": "(B5F-B10F),",
-		"friend_area": "Ranger ",
+		"rt_rate": "-19%",
+		"friend_area": "Mt. Deepgreen",
 		"sky_location": "Crystal Cave(B1F-B6F)",
 		"sky_rate": "0.5%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/e\/ec\/MDP_E_075.png"
@@ -677,8 +677,8 @@
 	"76": {
 		"name": "Golem",
 		"rt_location": "Magma Cavern(B15F-B20F), Mt. Faraway(10F-19F), Buried Relic(B91-B99F), Wish Cave(B76F-B79F), Southern Cavern(B40F-B50F), Joyous Tower(74F-79F)",
-		"rt_rate": "(B15F-B20F),",
-		"friend_area": "Ranger ",
+		"rt_rate": "-30%",
+		"friend_area": "Mt. Deepgreen",
 		"sky_location": "Crystal Cave(B8F-B11F)",
 		"sky_rate": "0.5%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/7\/73\/MDP_RT_076.png"
@@ -722,8 +722,8 @@
 	"81": {
 		"name": "Magnemite",
 		"rt_location": "Lightning Field(1F-7F), Wish Cave(1F-3F), automatically recruited when, Friend Areasbecome purchasable",
-		"rt_rate": "(1F-7F),",
-		"friend_area": "Ranger ",
+		"rt_rate": "12.8%",
+		"friend_area": "Power Plant",
 		"sky_location": "Sky Stairway(1F-25F), Final Maze(B1F-B48F)",
 		"sky_rate": "8.2%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/4\/4d\/MDP_E_081.png"
@@ -1300,7 +1300,7 @@
 		"rt_location": "Mt. ThunderPeak (3F)",
 		"rt_rate": "30%",
 		"friend_area": "Legendary Island",
-		"sky_location": "Amp Plains(",
+		"sky_location": "Amp Plains(7F) (mystery part/secret slab needed)",
 		"sky_rate": "10%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/c\/cc\/MDP_E_145.png"
 	},
@@ -1309,7 +1309,7 @@
 		"rt_location": "Mt. BlazePeak (3F)",
 		"rt_rate": "30%",
 		"friend_area": "Legendary Island",
-		"sky_location": "Giant Volcano(",
+		"sky_location": "Giant Volcano(10F) (mystery part/secret slab needed)",
 		"sky_rate": "30%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/1\/1f\/MDP_RT_146.png"
 	},
@@ -1345,7 +1345,7 @@
 		"rt_location": "Western Cave(99F)",
 		"rt_rate": "99.9%",
 		"friend_area": "Cryptic Cave",
-		"sky_location": "Sky Stairway(",
+		"sky_location": "Sky Stairway(25F-49F) (appears on random floor after accepting challenge letter)",
 		"sky_rate": "-22%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/3\/3b\/MDP_RT_150.png"
 	},
@@ -1864,7 +1864,7 @@
 	},
 	"208": {
 		"name": "Steelix",
-		"rt_location": "Evolve, Onix",
+		"rt_location": "Evolve Onix",
 		"rt_rate": "Evolve",
 		"friend_area": "Boulder Cave",
 		"sky_location": "Sky Stairway(1F-49F)",
@@ -1874,17 +1874,17 @@
 	"209": {
 		"name": "Snubbull",
 		"rt_location": "Western Cave(1F-3F)",
-		"rt_rate": "(1F-3F)",
-		"friend_area": "MD Time",
+		"rt_rate": "8.1%",
+		"friend_area": "Sky Blue Plains",
 		"sky_location": "Steam Cave(1F-8F), Marine Resort(1F-19F)",
 		"sky_rate": "6.4%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/a\/a7\/MDP_RT_209.png"
 	},
 	"210": {
 		"name": "Granbull",
-		"rt_location": "Evolve, Snubbull",
-		"rt_rate": null,
-		"friend_area": "MD Time",
+		"rt_location": "Evolve Snubbull",
+		"rt_rate": "Evolve",
+		"friend_area": "Sky Blue Plains",
 		"sky_location": "Steam Cave(1F-7F), Landslide Cave(B1F-B12F)",
 		"sky_rate": "0.5%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/9\/9a\/MDP_RT_210.png"
@@ -2236,7 +2236,7 @@
 		"rt_location": "Silver Trench(99F)",
 		"rt_rate": "99.9%",
 		"friend_area": "Deep-Sea Current",
-		"sky_location": "Surrounded Sea(",
+		"sky_location": "Surrounded Sea(18F) (Mystery Part\/Secret Slab needed)",
 		"sky_rate": "10%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/e\/ee\/MDP_RT_249.png"
 	},
@@ -2252,9 +2252,9 @@
 	"251": {
 		"name": "Celebi",
 		"rt_location": "Purity Forest(99F)",
-		"rt_rate": null,
+		"rt_rate": "99.9%",
 		"friend_area": "Healing Forest",
-		"sky_location": "Mystifying Forest(",
+		"sky_location": "Mystifying Forest(10F) (Mystery Part\/Secret Slab needed)",
 		"sky_rate": "20%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/4\/4c\/MDP_E_251.png"
 	},
@@ -3233,8 +3233,8 @@
 	"360": {
 		"name": "Wynaut",
 		"rt_location": "Buried Relic(1F-4F), Solar Cave(1F-3F)",
-		"rt_rate": "(1F-4F),",
-		"friend_area": "MD Time",
+		"rt_rate": "9.6%",
+		"friend_area": "Echo Cave",
 		"sky_location": "Marine Resort(1F-11F)",
 		"sky_rate": "8.2%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/3\/3a\/MDP_RT_360.png"
@@ -3622,7 +3622,7 @@
 		"rt_location": null,
 		"rt_rate": null,
 		"friend_area": null,
-		"sky_location": "Starter Pok\u00e9mon, Partner Pok\u00e9mon, Amp Plains(",
+		"sky_location": "Starter Pok\u00e9mon, Partner Pok\u00e9mon, Amp Plains(4F-10F, Far Amp Plains 1F) (after graduation)",
 		"sky_rate": "8.2%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/1\/15\/MDP_E_403.png"
 	},
@@ -3631,7 +3631,7 @@
 		"rt_location": null,
 		"rt_rate": null,
 		"friend_area": null,
-		"sky_location": "Far Amp Plains(",
+		"sky_location": "Far Amp Plains(5F-9F) (after graduation)",
 		"sky_rate": "0.5%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/8\/8e\/MDP_E_404.png"
 	},
@@ -4018,7 +4018,7 @@
 		"rt_location": null,
 		"rt_rate": null,
 		"friend_area": null,
-		"sky_location": "Starter Pok\u00e9mon, Crystal Cave(",
+		"sky_location": "Starter Pok\u00e9mon, Crystal Cave(B4F-B8F) (after graduation)",
 		"sky_rate": "8.2%",
 		"picture": "\/\/archives.bulbagarden.net\/media\/upload\/a\/af\/MDP_E_447.png"
 	},
