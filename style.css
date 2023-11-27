@@ -19,7 +19,8 @@ body {
 }
 
 #button-wrapper {
-	margin-top: 100px;
+	margin-top: 80px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
@@ -55,7 +56,7 @@ button {
 }
 
 #poke-wrapper {
-	margin-top: 15px;
+	margin-top: 10px;
 	text-align: center;
 	height: auto;
 	margin-left: 10%;
@@ -100,3 +101,19 @@ button {
 	padding: 150px;
 }
 
+#progress-bar {
+	position: relative;
+	width: 50%;
+	max-width: 1000px;
+	background-color: #668fcc;
+	border-radius: 30px;
+	margin: 0 auto;
+	text-align: right;
+	font-size: x-small;
+}
+  
+#progress {
+	background-color: #fc5185;
+	border-radius: 30px;
+	transition: width 0.5s ease-in-out;
+}

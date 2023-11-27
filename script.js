@@ -16,6 +16,18 @@ function isCaught(game, number) {
 	return localStorage.getItem(key) !== null;
 }
 
+function getRecruitedPokemon(game) {
+	totalPokemonCount = (game == 0) ? RT : SKY;
+	let count = 0;
+	for (let i = 1; i <= totalPokemonCount; i++) {
+	  let key = game + "_" + i;
+	  if (localStorage.getItem(key) !== null) {
+		count++;
+	  }
+	}
+	return count;
+  }
+
 // loading the pokemon data json
 fetch('https://raw.githubusercontent.com/pa5sarinho/pa5sarinho.github.io/main/PMD_data.json')
   .then(response => response.json())
@@ -23,6 +35,10 @@ fetch('https://raw.githubusercontent.com/pa5sarinho/pa5sarinho.github.io/main/PM
     let pokemon = data;
 
     const pokeWrapper = document.getElementById('poke-wrapper');
+	const progressBar = document.getElementById('progress');
+	let percentage = 0;
+	let recruitedPokemon = 0;
+
     let mode = 0; // 0: rescue team   1: explorers of sky
 
     // anything that's in the wrapper is deleted first, then it loads the portraits
@@ -31,6 +47,11 @@ fetch('https://raw.githubusercontent.com/pa5sarinho/pa5sarinho.github.io/main/PM
     	const photoDiv = document.createElement('div');
     	photoDiv.classList.add('portrait');
 		mode = (indexLimit == SKY) ? 1 : 0;
+
+		recruitedPokemon = getRecruitedPokemon(mode);
+		percentage = (recruitedPokemon/indexLimit)*100;
+		progressBar.style.width = percentage+'%';
+		progressBar.innerText = percentage.toFixed(1)+'%';
 
     	for (let i = 0; i < indexLimit; i++)
     	{
@@ -92,11 +113,16 @@ fetch('https://raw.githubusercontent.com/pa5sarinho/pa5sarinho.github.io/main/PM
 				if (isCaught(mode, pic.id)) {
 					cancelCaught(mode, pic.id);
 					pic.style.opacity = 0.4;
+					recruitedPokemon--;
 				}
 				else {
 					saveAsCaught(mode, pic.id);
 					pic.style.opacity = 1;
+					recruitedPokemon++;
 				}
+				percentage = (recruitedPokemon/indexLimit)*100;
+				progressBar.style.width = percentage+'%';
+				progressBar.innerText = percentage.toFixed(1)+'%';
 			});
 
 			pic.style.opacity = isCaught(mode, pic.id) ? 1 : 0.4;
