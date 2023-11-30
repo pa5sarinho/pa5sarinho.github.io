@@ -118,3 +118,20 @@ button {
 	border-radius: 30px;
 	transition: width 0.5s ease-in-out;
 }
+
+#tables {
+	text-align: center;
+}
+
+table, th, td {
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+	border: 2px solid rgb(204, 204, 204);
+	padding: 2px;
+}
+
+a:visited, a {
+	color: lightblue;
+	font-size: smaller;
+}
