@@ -19,7 +19,7 @@
 	},
 	"3": {
 		"name": "Venusaur",
-		"rt_location": "Evolve, Ivysaur",
+		"rt_location": "Evolve Ivysaur at lvl 32",
 		"rt_rate": "Evolve",
 		"friend_area": "Beau Plains",
 		"sky_location": "Mystery Jungle(1F-29F)",
@@ -46,7 +46,7 @@
 	},
 	"6": {
 		"name": "Charizard",
-		"rt_location": "Evolve, Charmeleon",
+		"rt_location": "Evolve Charmeleon at lvl 36",
 		"rt_rate": "Evolve",
 		"friend_area": "Mt. Cleft",
 		"sky_location": "Spacial Rift(B1F-B15F, Deep Spacial Rift B1F-B9F), Deep, Dark Crater(B6F-B14F)",
@@ -73,7 +73,7 @@
 	},
 	"9": {
 		"name": "Blastoise",
-		"rt_location": "Western Cave(B89F-B98F)",
+		"rt_location": "Western Cave(B89F-B98F) or evolve Wartortle at lvl 36",
 		"rt_rate": "-33.9%",
 		"friend_area": "Turtleshell Pond",
 		"sky_location": "Lake Afar(B17F-B24F)",
@@ -100,7 +100,7 @@
 	},
 	"12": {
 		"name": "Butterfree",
-		"rt_location": "Evolve, Metapod",
+		"rt_location": "Evolve Metapod at lvl 10",
 		"rt_rate": "Evolve",
 		"friend_area": "Mist-Rise Forest",
 		"sky_location": "Apple Woods(1F-7F)",
@@ -127,7 +127,7 @@
 	},
 	"15": {
 		"name": "Beedrill",
-		"rt_location": "Evolve, Kakuna",
+		"rt_location": "Evolve Kakuna at lvl 10",
 		"rt_rate": "Evolve",
 		"friend_area": "Mist-Rise Forest",
 		"sky_location": "Apple Woods(8F-12F), Midnight Forest(B1-B21)",
@@ -154,7 +154,7 @@
 	},
 	"18": {
 		"name": "Pidgeot",
-		"rt_location": "Evolve, Pidgeotto",
+		"rt_location": "Evolve Pidgeotto at lvl 36",
 		"rt_rate": "Evolve",
 		"friend_area": "Flyaway Forest",
 		"sky_location": "Concealed Ruins(B21F-B29F), World Abyss(B21F-B29F), Mt. Mistral(1F-19F)",
@@ -172,7 +172,7 @@
 	},
 	"20": {
 		"name": "Raticate",
-		"rt_location": "Evolve, Rattata",
+		"rt_location": "Evolve Rattata at lvl 20",
 		"rt_rate": "Evolve",
 		"friend_area": "Wild Plains",
 		"sky_location": "Mystifying Forest(1F-13F), Sky Peak(1st Station Pass 1F - 6th Station Pass 3F), Mystery Jungle(1F-29F), Midnight Forest(B1F-B21F)",
@@ -190,7 +190,7 @@
 	},
 	"22": {
 		"name": "Fearow",
-		"rt_location": "Evolve, Spearow",
+		"rt_location": "Evolve Spearow at lvl 20",
 		"rt_rate": "Evolve",
 		"friend_area": "Ravaged Field",
 		"sky_location": "Sky Peak(5th Station Pass 4F - Sky Peak Summit Pass 5F), Mt. Travail(1F-19F), Mt. Mistral(1F-19F)",
@@ -208,7 +208,7 @@
 	},
 	"24": {
 		"name": "Arbok",
-		"rt_location": "Evolve, Ekans",
+		"rt_location": "Evolve Ekans at lvl 22",
 		"rt_rate": "Evolve",
 		"friend_area": "Wild Plains",
 		"sky_location": "Shimmer Desert(1F-9F)",
@@ -226,7 +226,7 @@
 	},
 	"26": {
 		"name": "Raichu",
-		"rt_location": "Evolve, Pikachu",
+		"rt_location": "Evolve Pikachu using a Thunderstone",
 		"rt_rate": "Evolve",
 		"friend_area": "Energetic Forest",
 		"sky_location": "Sky Stairway(1F-49F)",
@@ -244,7 +244,7 @@
 	},
 	"28": {
 		"name": "Sandslash",
-		"rt_location": "Evolve, Sandshrew",
+		"rt_location": "Evolve Sandshrew at lvl 22",
 		"rt_rate": "Evolve",
 		"friend_area": "Furnace Desert",
 		"sky_location": "Quicksand Cave(B1F-B10F, Quicksand Pit B1F-B10F), Shimmer Desert(1F-9F)",
@@ -271,7 +271,7 @@
 	},
 	"31": {
 		"name": "Nidoqueen",
-		"rt_location": "Evolve, Nidorina",
+		"rt_location": "Evolve Nidorina with a Moon Stone",
 		"rt_rate": "Evolve",
 		"friend_area": "Safari",
 		"sky_location": "Concealed Ruins(B1F-B29F), World Abyss(B1F-B29F)",
@@ -298,7 +298,7 @@
 	},
 	"34": {
 		"name": "Nidoking",
-		"rt_location": "Evolve, Nidorino",
+		"rt_location": "Evolve Nidorino with a Moon Stone",
 		"rt_rate": "Evolve",
 		"friend_area": "Safari",
 		"sky_location": "Shimmer Desert(1F-9F)",
@@ -316,7 +316,7 @@
 	},
 	"36": {
 		"name": "Clefable",
-		"rt_location": "Evolve, Clefairy",
+		"rt_location": "Evolve Clefairy using Moon Stone",
 		"rt_rate": "Evolve",
 		"friend_area": "Mt. Moonview",
 		"sky_location": "Marine Resort(10F-19F)",
@@ -334,7 +334,7 @@
 	},
 	"38": {
 		"name": "Ninetales",
-		"rt_location": "Evolve, Vulpix",
+		"rt_location": "Evolve Vulpix using Fire Stone",
 		"rt_rate": "Evolve",
 		"friend_area": "Darkness Ridge",
 		"sky_location": "Treeshroud Forest(10F-20F)",
@@ -352,7 +352,7 @@
 	},
 	"40": {
 		"name": "Wigglytuff",
-		"rt_location": "Evolve, Jigglypuff",
+		"rt_location": "Evolve Jigglypuff using Moon Stone",
 		"rt_rate": "Evolve",
 		"friend_area": "Sky Blue Plains",
 		"sky_location": "Marine Resort(10F-19F)",
@@ -397,7 +397,7 @@
 	},
 	"45": {
 		"name": "Vileplume",
-		"rt_location": "Evolve, Gloom",
+		"rt_location": "Evolve Gloom with Leaf Stone",
 		"rt_rate": "Evolve",
 		"friend_area": "Jungle",
 		"sky_location": "Mystery Jungle(1F-29F)",
@@ -415,7 +415,7 @@
 	},
 	"47": {
 		"name": "Parasect",
-		"rt_location": "Evolve, Paras",
+		"rt_location": "Evolve Paras at lvl 24",
 		"rt_rate": "Evolve",
 		"friend_area": "Mushroom Forest",
 		"sky_location": "Mt. Horn(1F-7F)",
@@ -433,7 +433,7 @@
 	},
 	"49": {
 		"name": "Venomoth",
-		"rt_location": "Evolve, Venonat",
+		"rt_location": "Evolve Venonat at lvl 32",
 		"rt_rate": "Evolve",
 		"friend_area": "Secretive Forest",
 		"sky_location": "Mt. Horn(8F-14F), Landslide Cave(B1F-B12F), Mt. Mistral(1F-19F), Midnight Forest(B1F-B21F)",
@@ -451,7 +451,7 @@
 	},
 	"51": {
 		"name": "Dugtrio",
-		"rt_location": "Evolve, Diglett",
+		"rt_location": "Evolve Diglett at lvl 26",
 		"rt_rate": "Evolve",
 		"friend_area": "Boulder Cave",
 		"sky_location": "Shimmer Desert(1F-9F)",
@@ -469,7 +469,7 @@
 	},
 	"53": {
 		"name": "Persian",
-		"rt_location": "Evolve, Meowth",
+		"rt_location": "Evolve Meowth at lvl 28",
 		"rt_rate": "Evolve",
 		"friend_area": "Energetic Forest",
 		"sky_location": "Happy Outlook(B1F-B15F)",
@@ -487,7 +487,7 @@
 	},
 	"55": {
 		"name": "Golduck",
-		"rt_location": "Evolve, Psyduck",
+		"rt_location": "Evolve Psyduck at lvl 33",
 		"rt_rate": "Evolve",
 		"friend_area": "Turtleshell Pond",
 		"sky_location": "Blizzard Island(1F-20F), Crevice Cave(B1F-B10F, Lower Crevice Cave B1F-B4F), Mt. Avalanche(12F-19F)",
@@ -505,7 +505,7 @@
 	},
 	"57": {
 		"name": "Primeape",
-		"rt_location": "Evolve, Mankey",
+		"rt_location": "Evolve Mankey at lvl 28",
 		"rt_rate": "Evolve",
 		"friend_area": "Energetic Forest",
 		"sky_location": "Sky Peak(4th Station Pass 2F - Sky Peak Summit Pass 5F), Mt. Travail(1F-19F), Shimmer Hill(1F-17F)",
