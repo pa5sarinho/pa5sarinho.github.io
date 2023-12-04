@@ -131,6 +131,11 @@ table, th, td {
 	padding: 2px;
 }
 
+table {
+	display: inline-block;
+	border: none;
+}
+
 a:visited, a {
 	color: lightblue;
 	font-size: smaller;
